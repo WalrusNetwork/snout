@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ESNext",
+      "noImplicitAny": false,
+      "sourceMap": true,
+      "outDir": "build",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "declaration": true,
+      "importHelpers": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": [
+        "es2018",
+        "esnext.asynciterable"
+      ],
+      "moduleResolution": "node"
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }
